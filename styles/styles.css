@@ -1,0 +1,215 @@
+body {
+  position: relative;
+  background-color: #212A31;
+  color: #f2f2f2;
+  font-family: "monospace";
+}
+
+/*******************************************************************
+********************************************************************
+                                    Home
+********************************************************************
+********************************************************************/
+.home {
+  height: 100vh;
+  color: #f2f2f2;
+}
+.home .home-bg {
+  position: absolute;
+  overflow: hidden;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.intro {
+  position: relative;
+  margin: 0 auto;
+}
+.intro .typewriter span {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.intro .specialist {
+  font-size: 1.5rem;
+}
+.intro .down-arrow-button-container {
+  padding: 2.5rem;
+}
+
+.typed-cursor {
+  opacity: 1;
+  font-weight: 700;
+}
+
+/*******************************************************************
+********************************************************************
+                            NAVBAR
+********************************************************************
+********************************************************************/
+.menu-container {
+  padding-left: 5rem;
+}
+
+.menu-items a {
+  font-style: monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #f2f2f2;
+}
+.menu-items .active {
+  color: yellow !important;
+}
+
+/*******************************************************************
+********************************************************************
+--------------------------------------------------------------------
+                            Main
+--------------------------------------------------------------------
+********************************************************************
+********************************************************************/
+.main {
+  position: relative;
+}
+.main .main-bg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+/*******************************************************************
+                            ABOUT ME
+********************************************************************/
+.about-me {
+  font-family: monospace;
+  /***
+  Heading Title 
+   ***/
+}
+.about-me .about-me-heading-container h1 {
+  position: relative;
+  font-size: 4em;
+  font-weight: 900;
+  margin-top: 6rem;
+  padding-top: 2rem;
+}
+.about-me .about-me-heading-container h1::before {
+  content: "";
+  border-bottom: 10px solid #ff4d5a;
+  width: 14.5rem;
+  display: block;
+  position: relative;
+  left: 1.5rem;
+  top: 3.5rem;
+  z-index: -2;
+}
+
+/*
+Profile Picture
+*/
+.about-me-description-container {
+  padding: 0 50rem;
+}
+.about-me-description-container .about-me-profile-pic-container img {
+  width: 200px;
+  height: 200px;
+}
+.about-me-description-container .about-me-descritpion-text-container .about-me-description-text {
+  padding: 0 5rem;
+  font-size: 1.25rem;
+}
+.about-me-description-container .about-me-view-resume-container {
+  position: relative;
+  top: 1rem;
+}
+.about-me-description-container .about-me-view-resume-container a {
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 1rem;
+  font-weight: 900;
+  text-align: center;
+  color: #f2f2f2;
+  background-color: #04AA6D;
+  border: none;
+  border-radius: 15px;
+}
+
+/*******************************************************************
+                        TECHNOLOGY
+********************************************************************/
+.technology-section {
+  font-family: monospace;
+}
+.technology-section .technology-container .technology-items-container img {
+  width: 4rem;
+  height: 4rem;
+}
+.technology-section .technology-container .technology-items-container h1 {
+  font-size: 1.25rem;
+}
+
+/*******************************************************************
+                        CERTIFICATIONS
+********************************************************************/
+.certificates-section {
+  font-family: monospace;
+}
+.certificates-section .certificates-container .certificates-items-outer-container .certificates-items-container img {
+  width: 6rem;
+  height: 6rem;
+}
+.certificates-section .certificates-container .certificates-items-outer-container .certificates-items-container h1 {
+  font-size: 1.25rem;
+}
+
+/*******************************************************************
+********************************************************************
+--------------------------------------------------------------------
+                            PROJECTS
+--------------------------------------------------------------------
+********************************************************************      
+********************************************************************/
+.projects {
+  position: relative;
+  height: 100vh;
+  font-family: monospace;
+}
+.projects .projects-heading-container h1 {
+  position: relative;
+  font-size: 4em;
+  font-weight: 900;
+  margin-top: 6rem;
+  padding-top: 2rem;
+}
+.projects .projects-heading-container h1::before {
+  content: "";
+  border-bottom: 10px solid #F95CA4;
+  width: 15rem;
+  display: block;
+  position: relative;
+  left: 1.5rem;
+  top: 3.5rem;
+  z-index: -2;
+}
+
+/*******************************************************************
+********************************************************************
+                            Footer
+********************************************************************
+********************************************************************/
+.footer {
+  position: relative;
+  background-color: #2e3944;
+}
+.footer img {
+  width: 50px;
+  height: 50px;
+}
+.footer .up-arrow-button {
+  position: relative;
+  bottom: 1rem;
+}/*# sourceMappingURL=styles.css.map */

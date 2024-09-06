@@ -1,0 +1,299 @@
+//$background_color: #272727;
+$background_color: #212A31;
+$text_color: #f2f2f2;
+
+body {
+    position: relative;
+    background-color: $background_color;
+    color: $text_color;
+    font-family: "monospace";
+}
+
+
+/*******************************************************************
+********************************************************************
+                                    Home
+********************************************************************
+********************************************************************/
+.home {
+    //position: relative;
+    height: 100vh;
+    color: $text_color;
+    //border: 5px solid #cc00cc;
+    .home-bg {
+        position: absolute;
+        overflow: hidden;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        //border: 5px solid red;
+    }
+}
+
+.intro {
+    position: relative;
+    margin: 0 auto;
+    //border: 5px solid yellow;
+    
+    .typewriter {
+        span {
+            font-size: 3.5rem;
+            font-weight: 700;
+        }
+    }
+    .specialist {
+        font-size: 1.5rem;
+    }
+
+    .down-arrow-button-container {
+        padding: 2.5rem;
+        //border: 5px solid red;
+    }
+}
+.typed-cursor {
+    opacity: 1;
+    font-weight: 700;
+}
+
+/*******************************************************************
+********************************************************************
+                            NAVBAR
+********************************************************************
+********************************************************************/
+.menu-container {
+    //border: 5px solid red;
+    padding-left: 5rem;
+}
+.menu-items {
+    a {
+        font-style: monospace;
+        font-size: 1rem;
+        font-weight: 700;
+        color: $text_color;
+    }
+    .active {
+        color: yellow !important;
+    }
+
+}
+
+
+/*******************************************************************
+********************************************************************
+--------------------------------------------------------------------
+                            Main
+--------------------------------------------------------------------
+********************************************************************
+********************************************************************/
+.main {
+    position: relative;
+    //border: 5px solid green;
+    //height: 100%;
+    .main-bg {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        //border: 5px solid  violet;
+        z-index: -1;
+    }
+}
+
+/*******************************************************************
+                            ABOUT ME
+********************************************************************/
+.about {
+    //height: 100vh;
+    //border: 5px solid #ffecdc; 
+}
+
+.about-me {
+    //border: 5px solid red;
+    font-family: monospace;
+    //border: 5px solid #ffa500;
+    
+    /***
+    Heading Title 
+     ***/
+    .about-me-heading-container h1 {
+        //border: 5px solid #e70867;
+        position: relative;
+        font-size: 4em;
+        font-weight: 900;
+        margin-top: 6rem;
+        padding-top: 2rem;
+        //z-index: -1;
+        &::before {
+            content: '';
+            //border-bottom: 10px solid #FFE400;
+            border-bottom: 10px solid #ff4d5a;
+            width: 14.5rem;
+            display: block;
+            //margin: 0 auto;
+            position: relative;
+            left: 1.5rem;
+            top: 3.5rem;
+            z-index: -2;
+        }
+    }
+
+}
+
+/*
+Profile Picture
+*/
+.about-me-description-container {
+    //border: 5px solid fuchsia;
+    padding: 0 50rem;
+    .about-me-profile-pic-container {
+        //border: 5px solid #e5c1fa;
+        img {
+            width: 200px;
+            height: 200px;
+        }
+    }
+
+    .about-me-descritpion-text-container {
+        //border: 5px solid #28bfb4;
+        .about-me-description-text {
+            
+            padding: 0 5rem;
+            font-size: 1.25rem;
+        }
+    }
+    .about-me-view-resume-container {
+        //border: 5px solid #ffc000;
+        position: relative;
+        top: 1rem;
+        a {
+            text-decoration: none;
+            padding: 10px 10px;
+            font-size: 1rem;
+            font-weight: 900;
+            text-align: center;
+            color:$text_color;
+            background-color: #04AA6D;
+            border: none;
+            border-radius: 15px;
+        }
+    }
+
+}
+/*******************************************************************
+                        TECHNOLOGY
+********************************************************************/
+.technology-section {
+    font-family: monospace;
+    //border: 5px solid #d6fac1;
+    .technology-heading-container {
+        //border: 5px solid #5d74f4;
+
+        h1 {
+            //border: 5px solid #380e3b;
+            //font-family: monospace;
+        }
+    }
+    .technology-container {
+        //border: 5px solid #0d98ba;
+        .technology-items-container {
+            //border: 5px solid #18dffc;
+            img {
+                width: 4rem;
+                height: 4rem;
+            }
+            h1 {
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
+
+/*******************************************************************
+                        CERTIFICATIONS
+********************************************************************/
+.certificates-section {
+    font-family: monospace;
+    //border: 5px solid #ff3100;
+    
+    .certificates-container {
+        //border: 5px solid  #e5c1fa;
+
+
+        .certificates-items-outer-container {
+            
+            .certificates-items-container {
+                img {
+                    width: 6rem;
+                    height: 6rem;
+                }
+                h1 {
+                    font-size: 1.25rem;
+                }
+            }
+        }
+    }
+}
+
+
+
+/*******************************************************************
+********************************************************************
+--------------------------------------------------------------------
+                            PROJECTS
+--------------------------------------------------------------------
+********************************************************************      
+********************************************************************/
+.projects {
+    position: relative;
+    height: 100vh;
+    font-family: monospace;
+    //border: 5px solid #d6fac1;
+    .projects-heading-container h1 {
+        //border: 5px solid #e70867;
+        position: relative;
+        font-size: 4em;
+        font-weight: 900;
+        margin-top: 6rem;
+        padding-top: 2rem;
+        //z-index: -1;
+        &::before {
+            content: '';
+            //border-bottom: 10px solid #FFE400;
+            border-bottom: 10px solid #F95CA4;
+            width: 15rem;
+            display: block;
+            //margin: 0 auto;
+            position: relative;
+            left: 1.5rem;
+            top: 3.5rem;
+            z-index: -2;
+        }
+    }
+}
+
+/*******************************************************************
+********************************************************************
+                            Footer
+********************************************************************
+********************************************************************/
+.footer {
+    position: relative;
+    //border: 5px solid aquamarine;
+    background-color: #2e3944;
+    //height: 10rem;
+    img {
+        width: 50px;
+        height: 50px;
+    }
+    .up-arrow-button {
+        position: relative;
+        bottom: 1rem;
+        //border: 5px solid #7f00ff;
+    }
+
+    .footer-container {
+        //border: 5px solid blueviolet;
+    }
+}
