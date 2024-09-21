@@ -36,7 +36,7 @@
             <div class="down-arrow-button-container">
                 <a href="#about" class="down-arrow-button" id="down-arrow-button">
                     <div class="animate-container-rubberband">
-                        <img src="images/misc/down-arrow.png" width="50" height="50">
+                        <img src="images/misc/down-arrow.png" alt="down-arrow" width="50" height="50">
                     </div>
                 </a>
             </div>
@@ -49,13 +49,13 @@
         <div class="menu-container container-fluid">
             <ul class="navbar-nav">
                 <li class="menu-items nav-item">
-                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#home"><h5>Home</h5></a>
                 </li>
                 <li class="menu-items nav-item">
-                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#about"><h5>About</h5></a>
                 </li>
                 <li class="menu-items nav-item">
-                    <a class="nav-link" href="#projects">Projects</a>
+                    <a class="nav-link" href="#projects"><h5>Projects</h5></a>
                 </li>
             </ul>
         </div>
@@ -76,17 +76,19 @@
                 </div>
                 <div class="about-me-description-container d-flex flex-row">
                     <div class="d-flex align-items-center about-me-profile-pic-container animate-container-jump">
-                        <img src="images/misc/profile-icon.png">
+                        <img src="images/misc/profile-icon.png" alt="profile-icon">
                     </div>
                     <div class="about-me-description d-flex flex-column align-items-center">
                         <div class="about-me-descritpion-text-container d-flex flex-column">
                             <h1 class="about-me-description-text">
-                                Hello! I’m John Rasay, an IT Specialist with extensive experienced in help desk and network support. 
-                                Over the years, I’ve honed my skills in troubleshooting, system maintenance, and providing technical assistance, ensuring seamless operations and satisfied users.
-                                <br>
-                                I have a great interest in Cloud technology, Coding, and DevOps. 
-                                I’m particularly excited about the transformative power of the cloud and its role in modern IT infrastructure. 
-                                My passion for coding drives me to continuously explore new programming languages and tools, while my fascination with DevOps motivates me to streamline processes and enhance collaboration between development and operations teams.
+                                Hello! I’m John Rasay, an IT specialist with extensive experience in help desk and network support. 
+                                Throughout my career, I’ve developed strong skills in troubleshooting, system maintenance, and technical assistance, 
+                                all focused on ensuring seamless operations and user satisfaction.
+                            </h1>
+                            <h1 class="about-me-description-text">
+                                I have a great interest in cloud technology and coding, and I’m always seeking opportunities to expand my knowledge in these areas. 
+                                My goal is to transition into software development, where I can leverage my help desk and network support experience alongside my enthusiasm 
+                                for cloud technology and programming.                                
                             </h1>
                         </div>
                         <div class="about-me-view-resume-container animate-container-headshake">
@@ -103,31 +105,39 @@
                 </div>
                 <div class="technology-container d-flex flex-row justify-content-end pe-5 me-5">
                     <div class="technology-items-container d-flex flex-column align-items-center p-4 m-2 animate-container-pulse">
-                        <img src="images/technology/HTML5.png">
+                        <img src="images/technology/HTML5.png" alt="HTML5">
                         <h1>HTML</h1>
                     </div>
                     <div class="technology-items-container d-flex flex-column align-items-center p-4 m-2 animate-container-pulse">
-                        <img src="images/technology/CSS.png">
+                        <img src="images/technology/CSS.png" alt="CSS">
                         <h1>CSS</h1>
                     </div>
                     <div class="technology-items-container d-flex flex-column align-items-center p-4 m-2 animate-container-pulse">
-                        <img src="images/technology/javascript.png">
+                        <img src="images/technology/javascript.png" alt="JavaScript">
                         <h1>JavaScript</h1>
                     </div>
                     <div class="technology-items-container d-flex flex-column align-items-center p-4 m-2 animate-container-pulse">
-                        <img src="images/technology/jquery.png">
+                        <img src="images/technology/jquery.png" alt="JQuery">
                         <h1>JQuery</h1>
                     </div>
                     <div class="technology-items-container d-flex flex-column align-items-center p-4 m-2 animate-container-pulse">
-                        <img src="images/technology/bootstrap-5.png">
+                        <img src="images/technology/react.png" alt="React">
+                        <h1>React</h1>
+                    </div>
+                    <div class="technology-items-container d-flex flex-column align-items-center p-4 m-2 animate-container-pulse">
+                        <img src="images/technology/Tailwind CSS.png" alt="Tailwind-css">
+                        <h1>Tailwind CSS</h1>
+                    </div>
+                    <div class="technology-items-container d-flex flex-column align-items-center p-4 m-2 animate-container-pulse">
+                        <img src="images/technology/bootstrap-5.png" alt="Bootstrap">
                         <h1>Bootstrap</h1>
                     </div>
                     <div class="technology-items-container d-flex flex-column align-items-center p-4 m-2 animate-container-pulse">
-                        <img src="images/technology/scss.png">
+                        <img src="images/technology/scss.png" alt="SCSS">
                         <h1>SASS</h1>
                     </div>
                     <div class="technology-items-container d-flex flex-column align-items-center p-4 m-2 animate-container-pulse">
-                        <img src="images/technology/python.png">
+                        <img src="images/technology/python.png" alt="Python">
                         <h1>Python</h1>
                     </div>
                 </div>
@@ -141,52 +151,106 @@
                 <div class="certificates-container d-flex flex-row ps-5 ms-5">
                     <!--COMPTIA-->
                     <div class="certificates-items-outer-container d-flex flex-row">
+                        <!--CompTIA A+-->
                         <div class="certificates-items-container d-flex flex-column align-items-center p-2 m-1 animate-container-pulse">
-                            <a href="https://www.youracclaim.com/badges/00e51d8c-60c3-4802-95fd-b135a061f300/linked_in_profile"><img src="images/certifications/CompTIA_A+.png"></a>
+                            <div class="card">
+                                <img src="images/certifications/CompTIA_A+.png" alt="A+">
+                                <div class="d-flex justify-content-center align-items-center text-center card-img-overlay cert-overlay my-auto bg-dark">
+                                    <a href="https://www.youracclaim.com/badges/00e51d8c-60c3-4802-95fd-b135a061f300/linked_in_profile"><h6 class="text-white fw-bolder">Show Badge</h6></a>
+                                </div>
+                            </div>
                             <h1>CompTIA</h1></h1>A+</h1>
                         </div>
+                        <!--End of CompTIA A+-->
+                        <!--CompTIA Network+-->
                         <div class="certificates-items-container d-flex flex-column align-items-center p-2 m-1 animate-container-pulse">
-                            <a href="https://www.youracclaim.com/badges/d9d7383d-f448-4a95-a076-0d8e0548c789/linked_in_profile"><img src="images/certifications/CompTIA_Network+.png"></a>
+                            <div class="card">
+                                <img src="images/certifications/CompTIA_Network+.png" alt="Net+">
+                                <div class="d-flex justify-content-center align-items-center text-center card-img-overlay cert-overlay my-auto bg-dark">
+                                    <a href="https://www.youracclaim.com/badges/d9d7383d-f448-4a95-a076-0d8e0548c789/linked_in_profile"><h6 class="text-white fw-bolder">Show Badge</h6></a>
+                                </div>
+                            </div>
                             <h1>CompTIA</h1><h1>Network+</h1>
                         </div>
+                        <!--End of CompTIA Network+-->
+                        <!--CompTIA Security+-->
                         <div class="certificates-items-container d-flex flex-column align-items-center p-2 m-1 animate-container-pulse">
-                            <a href="https://www.youracclaim.com/badges/51a8f38f-3621-4f1b-8b1a-ed878063a5ba/linked_in_profile"><img src="images/certifications/CompTIA_Security+.png"></a>
+                            <div class="card">
+                                <img src="images/certifications/CompTIA_Security+.png" alt="Sec+">
+                                <div class="d-flex justify-content-center align-items-center text-center card-img-overlay cert-overlay my-auto bg-dark">
+                                    <a href="https://www.youracclaim.com/badges/51a8f38f-3621-4f1b-8b1a-ed878063a5ba/linked_in_profile"><h6 class="text-white fw-bolder">Show Badge</h6></a>
+                                </div>
+                            </div>
                             <h1>CompTIA </h1><h1>Security+</h1>
                         </div>
+                        <!--End of CompTIA Security+-->
                     </div>
                     <!--END OF COMPTIA-->
                     <!--CISCO-->
                     <div class="certificates-items-outer-container d-flex flex-row">
+                        <!--Cisco CCNA-->
                         <div class="certificates-items-container d-flex flex-column align-items-center p-2 m-1 animate-container-pulse">
-                            <a href="https://www.credly.com/badges/d4df76ef-b401-4b78-aafe-881a792b57d2/public_url"><img src="images/certifications/CCNA.png"></a>
+                            <div class="card">
+                                <img src="images/certifications/CCNA.png" alt="CCNA">
+                                <div class="d-flex justify-content-center align-items-center text-center card-img-overlay cert-overlay my-auto bg-dark">
+                                    <a href="https://www.credly.com/badges/d4df76ef-b401-4b78-aafe-881a792b57d2/public_url"><h6 class="text-white fw-bolder">Show Badge</h6></a>
+                                </div>
+                            </div>
                             <h1>Cisco</h1><h1>CCNA</h1>
                         </div>
+                        <!--End of Cisco CCNA-->
+                        <!--Cisco CCNP-->
                         <div class="certificates-items-container d-flex flex-column align-items-center p-2 m-1 animate-container-pulse">
-                            <a href="https://www.credly.com/badges/bf51be6a-048b-4248-ac50-d1f75e46a2c9/linked_in_profile"><img src="images/certifications/CCNP.png"></a>
+                            <div class="card">
+                                <img src="images/certifications/CCNP.png" alt="CCNP">
+                                <div class="d-flex justify-content-center align-items-center text-center card-img-overlay cert-overlay my-auto bg-dark">
+                                    <a href="https://www.credly.com/badges/bf51be6a-048b-4248-ac50-d1f75e46a2c9/linked_in_profile"><h6 class="text-white fw-bolder">Show Badge</h6></a>
+                                </div>
+                            </div>
                             <h1>Cisco</h1><h1>CCNP</h1>
                         </div>
+                        <!--End of Cisco CCNP-->
                     </div>
                     <!--END OF CISCO-->
                     <!--AWS-->
                     <div class="certificates-items-outer-container d-flex flex-row">
+                        <!--AWS CCP-->
                         <div class="certificates-items-container d-flex flex-column align-items-center p-2 m-1 animate-container-pulse">
-                            <a href="https://www.credly.com/badges/679832a4-221a-4750-aec3-d3df789641ff/public_url"><img src="images/certifications/AWS_CCP.png"></a>
+                            <div class="card">
+                                <img src="images/certifications/AWS_CCP.png" alt="AWS-CCP">
+                                <div class="d-flex justify-content-center align-items-center text-center card-img-overlay cert-overlay my-auto bg-dark">
+                                    <a href="https://www.credly.com/badges/679832a4-221a-4750-aec3-d3df789641ff/public_url"><h6 class="text-white fw-bolder">Show Badge</h6></a>
+                                </div>
+                            </div>
                             <h1>AWS</h1><h1>CCP</h1>
                         </div>
+                        <!--End of AWS CCP-->
+                        <!--AWS SAA-->
                         <div class="certificates-items-container d-flex flex-column align-items-center p-2 m-1 animate-container-pulse">
-                            <a href="https://www.credly.com/badges/69c64006-cfd3-4a37-b42f-6938aeff273b/public_url"><img src="images/certifications/AWS_SAA.png"></a>
+                            <div class="card">
+                                <img src="images/certifications/AWS_SAA.png" alt="AWS-SAA">
+                                <div class="d-flex justify-content-center align-items-center text-center card-img-overlay cert-overlay my-auto bg-dark">
+                                    <a href="https://www.credly.com/badges/69c64006-cfd3-4a37-b42f-6938aeff273b/public_url"><h6 class="text-white fw-bolder">Show Badge</h6></a>
+                                </div>
+                            </div>
                             <h1>AWS</h1><h1>SAA</h1>
                         </div>
+                        <!--End of AWS SAA-->
                     </div>
                     <!--END OF AWS-->
-                    <!--MISC-->
+                    <!--PCAP-->
                     <div class="certificates-items-outer-container d-flex flex-row">
                         <div class="certificates-items-container d-flex flex-column align-items-center p-2 m-1 animate-container-pulse">
-                            <a href="https://www.credly.com/badges/f0fe403b-7d71-4112-85c3-b8a58a76329f/public_url"><img src="images/certifications/PCAP.png"></a>
+                            <div class="card">
+                               <img src="images/certifications/PCAP.png" alt="PCAP">
+                                <div class="d-flex justify-content-center align-items-center text-center card-img-overlay cert-overlay my-auto bg-dark">
+                                    <a href="https://www.credly.com/badges/f0fe403b-7d71-4112-85c3-b8a58a76329f/public_url"><h6 class="text-white fw-bolder">Show Badge</h6></a>
+                                </div>
+                            </div>
                             <h1>PCAP</h1>
                         </div>
                     </div>
-                    <!--END OF MISC-->
+                    <!--END OF PCAP-->
                 </div>
             </div>
             <!--END OF CERTIFICATES-->
@@ -197,8 +261,32 @@
             <div class="projects-heading-container">
                 <h1>PROJECTS</h1>
             </div>
-            <div class="projects-container d-flex flex-row animate-container-rubberband">
-                <img src="images/misc/work-in-progress.png">
+            <div class="projects-container d-flex flex-column">
+                <!--Projects Container-->
+                <div class="projects-items-container d-flex flex-row justify-content-center  ms-5">
+                    <!--Project Card-->
+                    <div class="project-card card bg-dark text-white p-2 m-4 border-bottom" style="width: 30rem">
+                        <div class="card-header text-center">
+                            <h3 class="card-title">Weather App</h3>
+                        </div>
+                        <div class="card-body">
+                            <img class="card-img-top" src="images/projects_preview/react-weather-app.png">
+                        </div>
+                        <div class="card-footer d-flex flex-column">
+                            <h5>Technolog Used:</h5>
+                            <div class="d-flex flex-row p-2 m-1">
+                                <img class="m-2" title="React" src="images/technology/react.png">              
+                                <img class="m-2" title="Tailwind CSS" src="images/technology/Tailwind CSS.png">
+                            </div>
+                            <div class="project-links d-flex flex-row align-items-center justify-content-center">
+                                <a href="https://github.com/jbrasay/react-weather-app"><img class="me-2" src="images/social/github.png" alt="View-Source" title="View Source"></a>
+                                <a  href="https://jbrasay-react-weather-app.netlify.app/"><h4 class="m-2">Demo</h4></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End of Project Card-->                    
+                </div>
+                <!--End of Projects Container-->
             </div>
         </div>
         <!--End of Projects-->
@@ -211,13 +299,13 @@
         </div>
         <div class="footer-container d-flex flex-row align-self-center">
             <div class="p-2 m-1 animate-container-pulse">
-                <a href="https://www.linkedin.com/in/john-benedick-rasay-7a32b7a4/"><img src="images/social/linkedin.png"></a>
+                <a href="https://www.linkedin.com/in/john-benedick-rasay-7a32b7a4/"><img src="images/social/linkedin.png" alt="linkedin"></a>
             </div>
             <div class="p-2 m-1 animate-container-pulse">
-                <a href="https://github.com/jbrasay"><img src="images/social/github.png"></a>
+                <a href="https://github.com/jbrasay"><img src="images/social/github.png" alt="github"></a>
             </div>
             <div class="p-2 m-1 animate-container-pulse">
-                <a href="mailto:jbrasay@gmail.com"><img src="images/social/mail.png"></a>
+                <a href="mailto:jbrasay@gmail.com"><img src="images/social/mail.png" alt="email"></a>
             </div>
         </div>
     </footer>

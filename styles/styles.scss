@@ -71,6 +71,10 @@ body {
         font-size: 1rem;
         font-weight: 700;
         color: $text_color;
+        
+        :hover {
+            color: yellow !important;
+        }
     }
     .active {
         color: yellow !important;
@@ -236,6 +240,20 @@ Profile Picture
     }
 }
 
+.cert-overlay {
+    height: fit-content;
+    opacity: 0;
+    transition: .5s ease;
+    
+    
+    a {
+        text-decoration: none;
+    }
+}
+
+.cert-overlay:hover {
+    opacity: .95;
+}
 
 
 /*******************************************************************
@@ -273,6 +291,23 @@ Profile Picture
     }
 }
 
+.project-card {
+    //background-color:#212529;
+    //color: $text_color;
+    .card-footer {
+        img {
+            width: 3rem;
+            height: 3rem;
+        }
+    }
+}
+.project-links a {
+    text-decoration: none;
+    color: $text_color;
+    :hover {
+        text-decoration: underline;
+    }
+}
 /*******************************************************************
 ********************************************************************
                             Footer
