@@ -61,6 +61,7 @@ body {
                             NAVBAR
 ********************************************************************
 ********************************************************************/
+
 .menu-container {
     //border: 5px solid red;
     padding-left: 5rem;
@@ -92,6 +93,7 @@ body {
 ********************************************************************/
 .main {
     position: relative;
+    overflow: hidden;
     //border: 5px solid green;
     //height: 100%;
     .main-bg {
@@ -190,6 +192,7 @@ Profile Picture
 ********************************************************************/
 .technology-section {
     font-family: monospace;
+
     //border: 5px solid #d6fac1;
     .technology-heading-container {
         //border: 5px solid #5d74f4;
@@ -204,11 +207,11 @@ Profile Picture
         .technology-items-container {
             //border: 5px solid #18dffc;
             img {
-                width: 4rem;
-                height: 4rem;
+                width: 3rem;
+                height: 3rem;
             }
             h1 {
-                font-size: 1.25rem;
+                font-size: 1.20rem;
             }
         }
     }
