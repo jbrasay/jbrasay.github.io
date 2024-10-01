@@ -110,11 +110,6 @@ body {
 /*******************************************************************
                             ABOUT ME
 ********************************************************************/
-.about {
-    //height: 100vh;
-    //border: 5px solid #ffecdc; 
-}
-
 .about-me {
     //border: 5px solid red;
     font-family: monospace;
@@ -125,12 +120,13 @@ body {
      ***/
     .about-me-heading-container h1 {
         //border: 5px solid #e70867;
-        position: relative;
+        //position: relative;
         font-size: 4em;
         font-weight: 900;
         margin-top: 6rem;
         padding-top: 2rem;
-        //z-index: -1;
+        border-bottom: 10px solid #ff4d5a;
+        /*
         &::before {
             content: '';
             //border-bottom: 10px solid #FFE400;
@@ -143,6 +139,7 @@ body {
             top: 3.5rem;
             z-index: -2;
         }
+        */
     }
 
 }
@@ -152,12 +149,36 @@ Profile Picture
 */
 .about-me-description-container {
     //border: 5px solid fuchsia;
-    padding: 0 50rem;
+    //padding: 0 50rem;
+    //margin-inline: 50rem;
+    @media (min-width: 360px) {
+        flex-direction: column;
+        margin-inline: 0;
+    }
+    @media (min-width: 1024px) {
+        margin-inline: 5rem;  
+    }
+    @media (min-width: 1300px) {
+        margin-inline: 10rem;
+    }
+    @media (min-width: 1600px) {
+        margin-inline: 20rem;
+    }
+    @media (min-width: 2000px) {
+        margin-inline: 25rem;
+    }
+    @media (min-width: 2400px) {
+        margin-inline: 50rem;
+    }
+
+
+    
+
     .about-me-profile-pic-container {
         //border: 5px solid #e5c1fa;
         img {
-            width: 200px;
-            height: 200px;
+            width: 12.5rem;
+            height: 12.5rem;
         }
     }
 
@@ -165,14 +186,12 @@ Profile Picture
         //border: 5px solid #28bfb4;
         .about-me-description-text {
             
-            padding: 0 5rem;
-            font-size: 1.25rem;
+            //padding: 0 5rem;
+            //font-size: 1.25rem;
         }
     }
     .about-me-view-resume-container {
         //border: 5px solid #ffc000;
-        position: relative;
-        top: 1rem;
         a {
             text-decoration: none;
             padding: 10px 10px;
@@ -184,6 +203,7 @@ Profile Picture
             border: none;
             border-radius: 15px;
         }
+        
     }
 
 }
@@ -196,10 +216,8 @@ Profile Picture
     //border: 5px solid #d6fac1;
     .technology-heading-container {
         //border: 5px solid #5d74f4;
-
         h1 {
-            //border: 5px solid #380e3b;
-            //font-family: monospace;
+            //border: 5px solid #5d74f4; 
         }
     }
     .technology-container {
@@ -225,19 +243,15 @@ Profile Picture
     //border: 5px solid #ff3100;
     
     .certificates-container {
-        //border: 5px solid  #e5c1fa;
+        //border: 5px solid #2600ff;
 
-
-        .certificates-items-outer-container {
-            
-            .certificates-items-container {
-                img {
-                    width: 6rem;
-                    height: 6rem;
-                }
-                h1 {
-                    font-size: 1.25rem;
-                }
+        .certificates-items-container {
+            img {
+                width: 5rem;
+                height: 5rem;
+            }
+            h1 {
+                font-size: 1.25rem;
             }
         }
     }
@@ -247,8 +261,6 @@ Profile Picture
     height: fit-content;
     opacity: 0;
     transition: .5s ease;
-    
-    
     a {
         text-decoration: none;
     }
@@ -268,17 +280,19 @@ Profile Picture
 ********************************************************************/
 .projects {
     position: relative;
-    height: 100vh;
+    //height: 100vh;
     font-family: monospace;
     //border: 5px solid #d6fac1;
     .projects-heading-container h1 {
         //border: 5px solid #e70867;
-        position: relative;
+        //position: relative;
         font-size: 4em;
         font-weight: 900;
         margin-top: 6rem;
         padding-top: 2rem;
-        //z-index: -1;
+        border-bottom: 10px solid #ff4d5a;
+
+        /*
         &::before {
             content: '';
             //border-bottom: 10px solid #FFE400;
@@ -291,6 +305,10 @@ Profile Picture
             top: 3.5rem;
             z-index: -2;
         }
+        */
+    }
+    .projects-container {
+        //border: 5px solid #e70867;
     }
 }
 

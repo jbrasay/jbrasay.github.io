@@ -95,40 +95,64 @@ body {
    ***/
 }
 .about-me .about-me-heading-container h1 {
-  position: relative;
   font-size: 4em;
   font-weight: 900;
   margin-top: 6rem;
   padding-top: 2rem;
-}
-.about-me .about-me-heading-container h1::before {
-  content: "";
   border-bottom: 10px solid #ff4d5a;
-  width: 14.5rem;
-  display: block;
-  position: relative;
-  left: 1.5rem;
-  top: 3.5rem;
-  z-index: -2;
+  /*
+  &::before {
+      content: '';
+      //border-bottom: 10px solid #FFE400;
+      border-bottom: 10px solid #ff4d5a;
+      width: 14.5rem;
+      display: block;
+      //margin: 0 auto;
+      position: relative;
+      left: 1.5rem;
+      top: 3.5rem;
+      z-index: -2;
+  }
+  */
 }
 
 /*
 Profile Picture
 */
-.about-me-description-container {
-  padding: 0 50rem;
+@media (min-width: 360px) {
+  .about-me-description-container {
+    flex-direction: column;
+    margin-inline: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .about-me-description-container {
+    margin-inline: 5rem;
+  }
+}
+@media (min-width: 1300px) {
+  .about-me-description-container {
+    margin-inline: 10rem;
+  }
+}
+@media (min-width: 1600px) {
+  .about-me-description-container {
+    margin-inline: 20rem;
+  }
+}
+@media (min-width: 2000px) {
+  .about-me-description-container {
+    margin-inline: 25rem;
+  }
+}
+@media (min-width: 2400px) {
+  .about-me-description-container {
+    margin-inline: 50rem;
+  }
 }
 .about-me-description-container .about-me-profile-pic-container img {
-  width: 200px;
-  height: 200px;
-}
-.about-me-description-container .about-me-descritpion-text-container .about-me-description-text {
-  padding: 0 5rem;
-  font-size: 1.25rem;
-}
-.about-me-description-container .about-me-view-resume-container {
-  position: relative;
-  top: 1rem;
+  width: 12.5rem;
+  height: 12.5rem;
 }
 .about-me-description-container .about-me-view-resume-container a {
   text-decoration: none;
@@ -162,11 +186,11 @@ Profile Picture
 .certificates-section {
   font-family: monospace;
 }
-.certificates-section .certificates-container .certificates-items-outer-container .certificates-items-container img {
-  width: 6rem;
-  height: 6rem;
+.certificates-section .certificates-container .certificates-items-container img {
+  width: 5rem;
+  height: 5rem;
 }
-.certificates-section .certificates-container .certificates-items-outer-container .certificates-items-container h1 {
+.certificates-section .certificates-container .certificates-items-container h1 {
   font-size: 1.25rem;
 }
 
@@ -192,27 +216,29 @@ Profile Picture
 ********************************************************************/
 .projects {
   position: relative;
-  height: 100vh;
   font-family: monospace;
 }
 .projects .projects-heading-container h1 {
-  position: relative;
   font-size: 4em;
   font-weight: 900;
   margin-top: 6rem;
   padding-top: 2rem;
+  border-bottom: 10px solid #ff4d5a;
+  /*
+  &::before {
+      content: '';
+      //border-bottom: 10px solid #FFE400;
+      border-bottom: 10px solid #F95CA4;
+      width: 15rem;
+      display: block;
+      //margin: 0 auto;
+      position: relative;
+      left: 1.5rem;
+      top: 3.5rem;
+      z-index: -2;
+  }
+  */
 }
-.projects .projects-heading-container h1::before {
-  content: "";
-  border-bottom: 10px solid #F95CA4;
-  width: 15rem;
-  display: block;
-  position: relative;
-  left: 1.5rem;
-  top: 3.5rem;
-  z-index: -2;
-}
-
 .project-card .card-footer img {
   width: 3rem;
   height: 3rem;

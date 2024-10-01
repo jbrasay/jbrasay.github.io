@@ -16,7 +16,7 @@ This portfolio was built to enhance my understanding of the following technologi
 - **JavaScript**: For adding interactivity and dynamic elements
 - **jQuery**: For simplifying DOM manipulation and event handling
 
-Additionally, I utilize the **Animate on Scroll (AOS)** library for scroll effects, **Animate CSS** for hover effects, and **Particles JS** library for the background effects.
+Additionally, I utilize the **Animate on Scroll (AOS)** library for scroll effects, **Animate CSS** for hover effects, **Particles JS** library for the background effects, and **TypeJS** for the typing animation.
 
 ## Projects
 
