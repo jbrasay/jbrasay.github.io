@@ -121,11 +121,14 @@ body {
     .about-me-heading-container h1 {
         //border: 5px solid #e70867;
         //position: relative;
-        font-size: 4em;
+        font-size: 4rem;
         font-weight: 900;
         margin-top: 6rem;
         padding-top: 2rem;
         border-bottom: 10px solid #ff4d5a;
+        @media (max-width: 450px) {
+            font-size: 3rem;
+        }
         /*
         &::before {
             content: '';
@@ -179,12 +182,20 @@ Profile Picture
         img {
             width: 12.5rem;
             height: 12.5rem;
+            @media (max-width: 450px) {
+                width: 7.5rem;
+                height: 7.5rem;
+            }
         }
+
     }
 
     .about-me-descritpion-text-container {
         //border: 5px solid #28bfb4;
         .about-me-description-text {
+            @media (max-width: 450px) {
+                font-size: 1rem;
+            }
             
             //padding: 0 5rem;
             //font-size: 1.25rem;
@@ -216,12 +227,21 @@ Profile Picture
     //border: 5px solid #d6fac1;
     .technology-heading-container {
         //border: 5px solid #5d74f4;
+        @media (max-width: 450px) {
+            justify-content: center;
+        }
         h1 {
-            //border: 5px solid #5d74f4; 
+            @media (max-width: 450px) {
+                font-size: 1.75rem;
+            }
+
         }
     }
     .technology-container {
         //border: 5px solid #0d98ba;
+        @media (min-width: 360px) {
+            justify-content: center;
+        }
         .technology-items-container {
             //border: 5px solid #18dffc;
             img {
@@ -230,6 +250,9 @@ Profile Picture
             }
             h1 {
                 font-size: 1.20rem;
+                @media (max-width: 450px) {
+                    font-size: 1.10rem;
+                }
             }
         }
     }
@@ -241,17 +264,33 @@ Profile Picture
 .certificates-section {
     font-family: monospace;
     //border: 5px solid #ff3100;
-    
+    .certificates-heading-container {
+        @media (max-width: 450px) {
+            justify-content: center;
+        }
+        h1 {
+            @media (max-width: 450px) {
+                font-size: 1.75rem;
+            }
+
+        }
+    }
     .certificates-container {
         //border: 5px solid #2600ff;
-
+        @media (min-width: 360px) {
+            justify-content: center;
+        }
         .certificates-items-container {
+            //border: 5px solid #2600ff;
             img {
                 width: 5rem;
                 height: 5rem;
             }
             h1 {
-                font-size: 1.25rem;
+                font-size: 1.20rem;
+                @media (max-width: 450px) {
+                    font-size: 1.10rem;
+                }
             }
         }
     }
@@ -286,11 +325,14 @@ Profile Picture
     .projects-heading-container h1 {
         //border: 5px solid #e70867;
         //position: relative;
-        font-size: 4em;
+        font-size: 4rem;
         font-weight: 900;
         margin-top: 6rem;
         padding-top: 2rem;
         border-bottom: 10px solid #ff4d5a;
+        @media (max-width: 450px) {
+            font-size: 3rem;
+        }
 
         /*
         &::before {

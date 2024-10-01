@@ -95,7 +95,7 @@ body {
    ***/
 }
 .about-me .about-me-heading-container h1 {
-  font-size: 4em;
+  font-size: 4rem;
   font-weight: 900;
   margin-top: 6rem;
   padding-top: 2rem;
@@ -114,6 +114,11 @@ body {
       z-index: -2;
   }
   */
+}
+@media (max-width: 450px) {
+  .about-me .about-me-heading-container h1 {
+    font-size: 3rem;
+  }
 }
 
 /*
@@ -154,6 +159,17 @@ Profile Picture
   width: 12.5rem;
   height: 12.5rem;
 }
+@media (max-width: 450px) {
+  .about-me-description-container .about-me-profile-pic-container img {
+    width: 7.5rem;
+    height: 7.5rem;
+  }
+}
+@media (max-width: 450px) {
+  .about-me-description-container .about-me-descritpion-text-container .about-me-description-text {
+    font-size: 1rem;
+  }
+}
 .about-me-description-container .about-me-view-resume-container a {
   text-decoration: none;
   padding: 10px 10px;
@@ -172,12 +188,32 @@ Profile Picture
 .technology-section {
   font-family: monospace;
 }
+@media (max-width: 450px) {
+  .technology-section .technology-heading-container {
+    justify-content: center;
+  }
+}
+@media (max-width: 450px) {
+  .technology-section .technology-heading-container h1 {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 360px) {
+  .technology-section .technology-container {
+    justify-content: center;
+  }
+}
 .technology-section .technology-container .technology-items-container img {
   width: 3rem;
   height: 3rem;
 }
 .technology-section .technology-container .technology-items-container h1 {
   font-size: 1.2rem;
+}
+@media (max-width: 450px) {
+  .technology-section .technology-container .technology-items-container h1 {
+    font-size: 1.1rem;
+  }
 }
 
 /*******************************************************************
@@ -186,12 +222,32 @@ Profile Picture
 .certificates-section {
   font-family: monospace;
 }
+@media (max-width: 450px) {
+  .certificates-section .certificates-heading-container {
+    justify-content: center;
+  }
+}
+@media (max-width: 450px) {
+  .certificates-section .certificates-heading-container h1 {
+    font-size: 1.75rem;
+  }
+}
+@media (min-width: 360px) {
+  .certificates-section .certificates-container {
+    justify-content: center;
+  }
+}
 .certificates-section .certificates-container .certificates-items-container img {
   width: 5rem;
   height: 5rem;
 }
 .certificates-section .certificates-container .certificates-items-container h1 {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
+}
+@media (max-width: 450px) {
+  .certificates-section .certificates-container .certificates-items-container h1 {
+    font-size: 1.1rem;
+  }
 }
 
 .cert-overlay {
@@ -219,7 +275,7 @@ Profile Picture
   font-family: monospace;
 }
 .projects .projects-heading-container h1 {
-  font-size: 4em;
+  font-size: 4rem;
   font-weight: 900;
   margin-top: 6rem;
   padding-top: 2rem;
@@ -238,6 +294,11 @@ Profile Picture
       z-index: -2;
   }
   */
+}
+@media (max-width: 450px) {
+  .projects .projects-heading-container h1 {
+    font-size: 3rem;
+  }
 }
 .project-card .card-footer img {
   width: 3rem;
