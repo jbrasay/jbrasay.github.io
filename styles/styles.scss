@@ -65,8 +65,20 @@ body {
 .menu-container {
     //border: 5px solid red;
     padding-left: 5rem;
+    @media (max-width: 574px) {
+        .navbar-nav {
+            display: flex;
+            flex-direction: row;
+            li {
+                margin-right: 1.25rem;
+            }
+        }
+    }
 }
+
+
 .menu-items {
+
     a {
         font-style: monospace;
         font-size: 1rem;
@@ -82,7 +94,6 @@ body {
     }
 
 }
-
 
 /*******************************************************************
 ********************************************************************

@@ -51,6 +51,15 @@ body {
 .menu-container {
   padding-left: 5rem;
 }
+@media (max-width: 574px) {
+  .menu-container .navbar-nav {
+    display: flex;
+    flex-direction: row;
+  }
+  .menu-container .navbar-nav li {
+    margin-right: 1.25rem;
+  }
+}
 
 .menu-items a {
   font-style: monospace;
