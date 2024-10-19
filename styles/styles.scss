@@ -357,13 +357,26 @@ Profile Picture
 .project-card {
     //background-color:#212529;
     //color: $text_color;
+    width: 30rem;
 
+    @media (max-width: 450px) {
+        width: 20rem;
+    }
     .card-footer {
         img {
             width: 3rem;
             height: 3rem;
+            @media (max-width: 450px) {
+                width: 1.75rem;
+                height: 1.75rem;
+            }
+        }
+
+        .project-demo {
+            font-size: 1.5rem;
         }
     }
+    
 }
 .project-links a {
     text-decoration: none;

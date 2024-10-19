@@ -300,9 +300,26 @@ Profile Picture
     font-size: 3rem;
   }
 }
+.project-card {
+  width: 30rem;
+}
+@media (max-width: 450px) {
+  .project-card {
+    width: 20rem;
+  }
+}
 .project-card .card-footer img {
   width: 3rem;
   height: 3rem;
+}
+@media (max-width: 450px) {
+  .project-card .card-footer img {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+.project-card .card-footer .project-demo {
+  font-size: 1.5rem;
 }
 
 .project-links a {
