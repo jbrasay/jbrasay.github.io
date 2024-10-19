@@ -308,6 +308,32 @@ Profile Picture
     width: 20rem;
   }
 }
+.project-card .card-header .card-header-heading {
+  font-size: 1.5rem;
+}
+@media (max-width: 450px) {
+  .project-card .card-header .card-header-heading {
+    font-size: 1.25rem;
+  }
+}
+.project-card .card-body img {
+  height: 20rem;
+  overflow-y: hidden;
+}
+@media (max-width: 450px) {
+  .project-card .card-body img {
+    height: 10rem;
+    overflow: hidden;
+  }
+}
+.project-card .card-footer .card-footer-heading {
+  font-size: 1.25rem;
+}
+@media (max-width: 450px) {
+  .project-card .card-footer .card-footer-heading {
+    font-size: 1rem;
+  }
+}
 .project-card .card-footer img {
   width: 3rem;
   height: 3rem;
@@ -320,6 +346,11 @@ Profile Picture
 }
 .project-card .card-footer .project-demo {
   font-size: 1.5rem;
+}
+@media (max-width: 450px) {
+  .project-card .card-footer .project-demo {
+    font-size: 1.25rem;
+  }
 }
 
 .project-links a {
